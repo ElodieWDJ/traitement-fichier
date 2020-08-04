@@ -8,9 +8,8 @@ import java.util.Set;
 
 import entites.produit.Ingredients;
 
-/**
- * @author perse
- *
+/** 
+ *  méthode qui récupére les ingrédients d'un produit
  */
 public abstract class Recette {
 	public static Set<Ingredients> SepIng(String chaines) {

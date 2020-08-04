@@ -4,7 +4,7 @@
 package entites.produit;
 
 /**
- * Ingrédients représente un ingrédient avec son id unique et son nom
+ * Ingrédients représente tous les attributs d'un produit
  *
  */
 public class Ingredients {
@@ -16,10 +16,11 @@ public class Ingredients {
 	 * @param nom
 	 */
 	public Ingredients(Integer id, String nom) {
-
+		super();
 		this.id = id;
 		this.nom = nom;
 	}
+	private Categorie 
 
 	/**
 	 * @return the id
